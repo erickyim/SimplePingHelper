@@ -8,12 +8,8 @@
 
 #import "SimplePingHelper.h"
 
-@interface SimplePingHelper()
-@property(nonatomic,copy) CompletionHandler completionHandler;
+@interface SimplePingHelper ()
 @property(nonatomic,retain) SimplePing* simplePing;
-
-- (instancetype)initWithAddress:(NSString *)address completionHandler:(CompletionHandler)handler NS_DESIGNATED_INITIALIZER;
-- (void)ping;
 
 @end
 
@@ -48,7 +44,7 @@
 
 - (void)ping {
     [self.simplePing start];
-    [self performSelector:@selector(endTime) withObject:nil afterDelay:1]; // This timeout is what retains the ping helper
+    [self performSelector:@selector(endTime) withObject:nil afterDelay:self.timeout ?: 1]; // This timeout is what retains the ping helper
 }
 
 #pragma mark - Finishing and timing out

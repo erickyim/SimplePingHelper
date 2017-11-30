@@ -3,137 +3,97 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D4CB64814C6754200875077 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CB64714C6754200875077 /* SimplePingHelper.m */; };
-		8D54207F14C650C600B3689B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54207E14C650C600B3689B /* UIKit.framework */; };
-		8D54208114C650C600B3689B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54208014C650C600B3689B /* Foundation.framework */; };
-		8D54208314C650C600B3689B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54208214C650C600B3689B /* CoreGraphics.framework */; };
-		8D54208914C650C600B3689B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D54208714C650C600B3689B /* InfoPlist.strings */; };
-		8D54208B14C650C600B3689B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54208A14C650C600B3689B /* main.m */; };
-		8D54208F14C650C600B3689B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54208E14C650C600B3689B /* AppDelegate.m */; };
-		8D54209214C650C600B3689B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54209114C650C600B3689B /* FirstViewController.m */; };
-		8D5420A014C650C600B3689B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D54209E14C650C600B3689B /* FirstViewController.xib */; };
-		8D5420AC14C651E700B3689B /* Radio-Tower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420A914C651E700B3689B /* Radio-Tower@2x.png */; };
-		8D5420AD14C651E700B3689B /* Radio-Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420AA14C651E700B3689B /* Radio-Tower.png */; };
-		8D5420AE14C651E700B3689B /* PP Icons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420AB14C651E700B3689B /* PP Icons.txt */; };
-		8D5420B714C6681000B3689B /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5420B614C6681000B3689B /* SimplePing.m */; };
-		F4B51D081FCEB1810018890C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B51D071FCEB1810018890C /* LaunchScreen.storyboard */; };
+		F4B483841FCF9ACC00139543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B483831FCF9ACC00139543 /* AppDelegate.swift */; };
+		F4B483861FCF9ACC00139543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B483851FCF9ACC00139543 /* ViewController.swift */; };
+		F4B483891FCF9ACC00139543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B483871FCF9ACC00139543 /* Main.storyboard */; };
+		F4B4838B1FCF9ACC00139543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B4838A1FCF9ACC00139543 /* Assets.xcassets */; };
+		F4B4838E1FCF9ACC00139543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B4838C1FCF9ACC00139543 /* LaunchScreen.storyboard */; };
+		F4B4839B1FCF9B0B00139543 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B483971FCF9B0A00139543 /* SimplePing.m */; };
+		F4B4839C1FCF9B0B00139543 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B483991FCF9B0B00139543 /* SimplePingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D4CB64614C6754200875077 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
-		8D4CB64714C6754200875077 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
-		8D54207A14C650C600B3689B /* PingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D54207E14C650C600B3689B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8D54208014C650C600B3689B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8D54208214C650C600B3689B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8D54208614C650C600B3689B /* PingTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingTester-Info.plist"; sourceTree = "<group>"; };
-		8D54208814C650C600B3689B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8D54208A14C650C600B3689B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D54208C14C650C600B3689B /* PingTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingTester-Prefix.pch"; sourceTree = "<group>"; };
-		8D54208D14C650C600B3689B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8D54208E14C650C600B3689B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D54209014C650C600B3689B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8D54209114C650C600B3689B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8D54209F14C650C600B3689B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		8D5420A914C651E700B3689B /* Radio-Tower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Tower@2x.png"; sourceTree = "<group>"; };
-		8D5420AA14C651E700B3689B /* Radio-Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Tower.png"; sourceTree = "<group>"; };
-		8D5420AB14C651E700B3689B /* PP Icons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PP Icons.txt"; sourceTree = "<group>"; };
-		8D5420B514C6681000B3689B /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		8D5420B614C6681000B3689B /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
-		F4B51D071FCEB1810018890C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4B51D0B1FCEB1C60018890C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F4B51D0C1FCEB1CD0018890C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F4B483801FCF9ACC00139543 /* PingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B483831FCF9ACC00139543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B483851FCF9ACC00139543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B483881FCF9ACC00139543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B4838A1FCF9ACC00139543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B4838D1FCF9ACC00139543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B4838F1FCF9ACC00139543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B483961FCF9B0A00139543 /* PingTester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4B483971FCF9B0A00139543 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		F4B483981FCF9B0A00139543 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		F4B483991FCF9B0B00139543 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		F4B4839A1FCF9B0B00139543 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D54207714C650C600B3689B /* Frameworks */ = {
+		F4B4837D1FCF9ACC00139543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D54207F14C650C600B3689B /* UIKit.framework in Frameworks */,
-				8D54208114C650C600B3689B /* Foundation.framework in Frameworks */,
-				8D54208314C650C600B3689B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D54206F14C650C600B3689B = {
+		F4B483771FCF9ACC00139543 = {
 			isa = PBXGroup;
 			children = (
-				8D54208414C650C600B3689B /* PingTester */,
-				8D54207D14C650C600B3689B /* Frameworks */,
-				8D54207B14C650C600B3689B /* Products */,
+				F4B483821FCF9ACC00139543 /* PingTester */,
+				F4B483811FCF9ACC00139543 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8D54207B14C650C600B3689B /* Products */ = {
+		F4B483811FCF9ACC00139543 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D54207A14C650C600B3689B /* PingTester.app */,
+				F4B483801FCF9ACC00139543 /* PingTester.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D54207D14C650C600B3689B /* Frameworks */ = {
+		F4B483821FCF9ACC00139543 /* PingTester */ = {
 			isa = PBXGroup;
 			children = (
-				F4B51D0C1FCEB1CD0018890C /* CFNetwork.framework */,
-				F4B51D0B1FCEB1C60018890C /* SystemConfiguration.framework */,
-				8D54207E14C650C600B3689B /* UIKit.framework */,
-				8D54208014C650C600B3689B /* Foundation.framework */,
-				8D54208214C650C600B3689B /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8D54208414C650C600B3689B /* PingTester */ = {
-			isa = PBXGroup;
-			children = (
-				8D54208D14C650C600B3689B /* AppDelegate.h */,
-				8D54208E14C650C600B3689B /* AppDelegate.m */,
-				8D54209014C650C600B3689B /* FirstViewController.h */,
-				8D54209114C650C600B3689B /* FirstViewController.m */,
-				8D5420B514C6681000B3689B /* SimplePing.h */,
-				8D5420B614C6681000B3689B /* SimplePing.m */,
-				8D4CB64614C6754200875077 /* SimplePingHelper.h */,
-				8D4CB64714C6754200875077 /* SimplePingHelper.m */,
-				8D5420A914C651E700B3689B /* Radio-Tower@2x.png */,
-				8D5420AA14C651E700B3689B /* Radio-Tower.png */,
-				8D5420AB14C651E700B3689B /* PP Icons.txt */,
-				8D54209E14C650C600B3689B /* FirstViewController.xib */,
-				8D54208514C650C600B3689B /* Supporting Files */,
+				F4B483951FCF9AEE00139543 /* Ping */,
+				F4B483831FCF9ACC00139543 /* AppDelegate.swift */,
+				F4B483851FCF9ACC00139543 /* ViewController.swift */,
+				F4B483871FCF9ACC00139543 /* Main.storyboard */,
+				F4B4838A1FCF9ACC00139543 /* Assets.xcassets */,
+				F4B4838C1FCF9ACC00139543 /* LaunchScreen.storyboard */,
+				F4B4838F1FCF9ACC00139543 /* Info.plist */,
 			);
 			path = PingTester;
 			sourceTree = "<group>";
 		};
-		8D54208514C650C600B3689B /* Supporting Files */ = {
+		F4B483951FCF9AEE00139543 /* Ping */ = {
 			isa = PBXGroup;
 			children = (
-				8D54208614C650C600B3689B /* PingTester-Info.plist */,
-				8D54208714C650C600B3689B /* InfoPlist.strings */,
-				8D54208A14C650C600B3689B /* main.m */,
-				8D54208C14C650C600B3689B /* PingTester-Prefix.pch */,
-				F4B51D071FCEB1810018890C /* LaunchScreen.storyboard */,
+				F4B4839A1FCF9B0B00139543 /* SimplePing.h */,
+				F4B483971FCF9B0A00139543 /* SimplePing.m */,
+				F4B483981FCF9B0A00139543 /* SimplePingHelper.h */,
+				F4B483991FCF9B0B00139543 /* SimplePingHelper.m */,
+				F4B483961FCF9B0A00139543 /* PingTester-Bridging-Header.h */,
 			);
-			name = "Supporting Files";
+			path = Ping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D54207914C650C600B3689B /* PingTester */ = {
+		F4B4837F1FCF9ACC00139543 /* PingTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D5420A614C650C600B3689B /* Build configuration list for PBXNativeTarget "PingTester" */;
+			buildConfigurationList = F4B483921FCF9ACC00139543 /* Build configuration list for PBXNativeTarget "PingTester" */;
 			buildPhases = (
-				8D54207614C650C600B3689B /* Sources */,
-				8D54207714C650C600B3689B /* Frameworks */,
-				8D54207814C650C600B3689B /* Resources */,
+				F4B4837C1FCF9ACC00139543 /* Sources */,
+				F4B4837D1FCF9ACC00139543 /* Frameworks */,
+				F4B4837E1FCF9ACC00139543 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,109 +101,125 @@
 			);
 			name = PingTester;
 			productName = PingTester;
-			productReference = 8D54207A14C650C600B3689B /* PingTester.app */;
+			productReference = F4B483801FCF9ACC00139543 /* PingTester.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8D54207114C650C600B3689B /* Project object */ = {
+		F4B483781FCF9ACC00139543 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					F4B4837F1FCF9ACC00139543 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
-			buildConfigurationList = 8D54207414C650C600B3689B /* Build configuration list for PBXProject "PingTester" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = F4B4837B1FCF9ACC00139543 /* Build configuration list for PBXProject "PingTester" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 8D54206F14C650C600B3689B;
-			productRefGroup = 8D54207B14C650C600B3689B /* Products */;
+			mainGroup = F4B483771FCF9ACC00139543;
+			productRefGroup = F4B483811FCF9ACC00139543 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D54207914C650C600B3689B /* PingTester */,
+				F4B4837F1FCF9ACC00139543 /* PingTester */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D54207814C650C600B3689B /* Resources */ = {
+		F4B4837E1FCF9ACC00139543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D54208914C650C600B3689B /* InfoPlist.strings in Resources */,
-				8D5420A014C650C600B3689B /* FirstViewController.xib in Resources */,
-				8D5420AC14C651E700B3689B /* Radio-Tower@2x.png in Resources */,
-				8D5420AD14C651E700B3689B /* Radio-Tower.png in Resources */,
-				F4B51D081FCEB1810018890C /* LaunchScreen.storyboard in Resources */,
-				8D5420AE14C651E700B3689B /* PP Icons.txt in Resources */,
+				F4B4838E1FCF9ACC00139543 /* LaunchScreen.storyboard in Resources */,
+				F4B4838B1FCF9ACC00139543 /* Assets.xcassets in Resources */,
+				F4B483891FCF9ACC00139543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D54207614C650C600B3689B /* Sources */ = {
+		F4B4837C1FCF9ACC00139543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D54208B14C650C600B3689B /* main.m in Sources */,
-				8D54208F14C650C600B3689B /* AppDelegate.m in Sources */,
-				8D54209214C650C600B3689B /* FirstViewController.m in Sources */,
-				8D5420B714C6681000B3689B /* SimplePing.m in Sources */,
-				8D4CB64814C6754200875077 /* SimplePingHelper.m in Sources */,
+				F4B4839B1FCF9B0B00139543 /* SimplePing.m in Sources */,
+				F4B4839C1FCF9B0B00139543 /* SimplePingHelper.m in Sources */,
+				F4B483861FCF9ACC00139543 /* ViewController.swift in Sources */,
+				F4B483841FCF9ACC00139543 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D54208714C650C600B3689B /* InfoPlist.strings */ = {
+		F4B483871FCF9ACC00139543 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D54208814C650C600B3689B /* en */,
+				F4B483881FCF9ACC00139543 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8D54209E14C650C600B3689B /* FirstViewController.xib */ = {
+		F4B4838C1FCF9ACC00139543 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D54209F14C650C600B3689B /* en */,
+				F4B4838D1FCF9ACC00139543 /* Base */,
 			);
-			name = FirstViewController.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8D5420A414C650C600B3689B /* Debug */ = {
+		F4B483901FCF9ACC00139543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -251,110 +227,128 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		8D5420A514C650C600B3689B /* Release */ = {
+		F4B483911FCF9ACC00139543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8D5420A714C650C600B3689B /* Debug */ = {
+		F4B483931FCF9ACC00139543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PingTester/PingTester-Prefix.pch";
-				INFOPLIST_FILE = "PingTester/PingTester-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "Digital5.${PRODUCT_NAME:rfc1034identifier}";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PingTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.PingTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SWIFT_OBJC_BRIDGING_HEADER = "PingTester/Ping/PingTester-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8D5420A814C650C600B3689B /* Release */ = {
+		F4B483941FCF9ACC00139543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PingTester/PingTester-Prefix.pch";
-				INFOPLIST_FILE = "PingTester/PingTester-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "Digital5.${PRODUCT_NAME:rfc1034identifier}";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PingTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.PingTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SWIFT_OBJC_BRIDGING_HEADER = "PingTester/Ping/PingTester-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D54207414C650C600B3689B /* Build configuration list for PBXProject "PingTester" */ = {
+		F4B4837B1FCF9ACC00139543 /* Build configuration list for PBXProject "PingTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D5420A414C650C600B3689B /* Debug */,
-				8D5420A514C650C600B3689B /* Release */,
+				F4B483901FCF9ACC00139543 /* Debug */,
+				F4B483911FCF9ACC00139543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D5420A614C650C600B3689B /* Build configuration list for PBXNativeTarget "PingTester" */ = {
+		F4B483921FCF9ACC00139543 /* Build configuration list for PBXNativeTarget "PingTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D5420A714C650C600B3689B /* Debug */,
-				8D5420A814C650C600B3689B /* Release */,
+				F4B483931FCF9ACC00139543 /* Debug */,
+				F4B483941FCF9ACC00139543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8D54207114C650C600B3689B /* Project object */;
+	rootObject = F4B483781FCF9ACC00139543 /* Project object */;
 }
